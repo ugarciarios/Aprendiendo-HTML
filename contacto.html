@@ -1,0 +1,62 @@
+<!DOCTYPE html> <!-- Especifica a la pagina web que version de html va a usar-->
+
+<html> <!-- Etiqueta que va a contener todo el sitio web-->
+    <head> <!--Lleva todos los metadatos o contenido que no se va a ver en la pagina web, se usa para el navegador-->
+        <meta charset="utf-8" /> <!--Se usa para textos en español y pueda reconocer caracteres especiales-->
+        <title>HTML </title> <!--Titulo que va a llevar mi pagina web-->
+    </head>
+    <body>
+        <h1>Página de contacto</h1>
+        <ul>
+            <li>
+                <a href="index.html">Inicio</a> <!--etiqueta "a" sirve para crear enlaces, atributo "href" permite saber a que enlace me va a llevar el enlace -->
+            </li>
+            <li>
+                <a href="contacto.html">Contacto</a> <!--etiqueta "a" sirve para crear enlaces, atributo "href" permite saber a que enlace me va a llevar el enlace -->
+            </li>
+        </ul>
+        <h1>Tablas</h1>
+        <table width="300px" border="8"> <!--Etiqueta table= crea una tabla, atributo border crea un margen en la tabla-->
+            <tr> <!--Etiqueta tr crea una fila-->
+                <td>Uriel</td> <!--Etiqueta td crea una columna-->
+                <td>Garcia</td>
+                <td>Web</td>
+            </tr>
+            <tr> 
+                <td>empty</td> 
+                <td>empty</td>
+                <td>empty</td>
+            </tr>
+            <tr> 
+                <td>empty</td> 
+                <td>empty</td>
+                <td>empty</td>
+            </tr>
+            <tr> 
+                <td>empty</td> 
+                <td>empty</td>
+                <td>empty</td>
+            </tr>
+            
+        </table>
+        <h1>Formularios</h1>
+            <p>Formulario de contacto</p>
+            <form> <!--Etiqueta form= sirve para crear un formulario-->
+                <label>Nombre</label> <br/><!--Titulo de la etiqueta-->
+                <input type="text"> <br/>
+           
+                <label>Apellido</label> <br/>
+                <input type="text"> <br/>
+          
+                <label>Email</label> <br/>
+                <input type="email"> <br/>
+
+                <select>
+                    <option value="hombre">Hombre</option> <!--Etiqueta opcion, value= el valor que va a ir dentro de la opcion-->
+                    <option value="mujer">Mujer</option>
+                </select>
+
+                <input type="submit" value="Enviar" />
+            </form>
+    </body>
+</html>
